@@ -1,0 +1,27 @@
+step1:
+you have to install the python of version 3.10.11
+the link to the installation : https://www.python.org/downloads/release/python-31011/
+ step 2: 
+ you have to create an virtual environment for this project to run 
+ command: py -3.10 -m venv trans
+ to activtate the env 
+ command: trans\scripts\\activtate
+step 3: install the requied models 
+here we are using vosk models so the vosk models have to download from outside to done
+vosk:
+english: https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+chinese: https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip
+french: https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
+spanish: https://alphacephei.com/vosk/models/vosk-model-small-es-0.42.zip
+after the download is done you have to extract  it to vosk\models\ en,cn,fr,es
+example:
+    "en": "vosk/models/en/vosk-model-small-en-us-0.15",
+    "es": "vosk/models/es/vosk-model-small-es-0.42",
+    "fr": "vosk/models/fr/vosk-model-small-fr-0.22",
+    "zh": "vosk/models/cn/vosk-model-small-cn-0.22",
+step 4: 
+install the requied packages using the following command
+command: pip install -r requirements.txt
+
+try to run main.pyby using the following command
+command: python main.py
